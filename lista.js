@@ -64,8 +64,8 @@ let navs = document.querySelectorAll(".list");
 
 navs.forEach( el => el.addEventListener('click', () =>{
 	list = "listWords" + el.id.substr(-1)
-	navs.forEach( el1 => el1.classList.remove("bg-lightest-blue"));
-	el.classList.toggle("bg-lightest-blue");
+	navs.forEach( el1 => el1.classList.remove("gradient-blue"));
+	el.classList.toggle("gradient-blue");
 	abreLista(eval(list));
 	})
 );
