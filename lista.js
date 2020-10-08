@@ -49,18 +49,20 @@ const abreLista = (listWords) =>{
 
 	});
 
-	let verRespuestas = document.getElementById("respuestas");
 	let divs = document.querySelectorAll(".dn");
 
+	let verRespuestas = document.getElementById("respuestas");
 	respuestas.addEventListener('click', () =>{
 		console.log('click');
 		divs.forEach( el => el.classList.toggle("dn"))
+		respuestas.classList.toggle("gradient-blue");
 	});
 
 };
 
 
-let navs = document.querySelectorAll(".list");
+let navs  = document.querySelectorAll(".list");
+let navsa = document.querySelectorAll(".nav a:nth-child(1n)");
 
 navs.forEach( el => el.addEventListener('click', () =>{
 	list = "listWords" + el.id.substr(-1)
@@ -71,3 +73,23 @@ navs.forEach( el => el.addEventListener('click', () =>{
 );
 
 
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+    navbar.classList.add("bg-black-60");
+    navsa.forEach(el => el.classList.add("white"))
+	navbar.classList.remove("mw7");
+    navbar.classList.remove("mt4");
+  } else {
+    navbar.classList.remove("sticky");
+    navbar.classList.remove("bg-black-60");
+    navsa.forEach(el => el.classList.remove("white"))
+    navbar.classList.add("mw7");
+    navbar.classList.add("mt4");
+  }
+} 
