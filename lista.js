@@ -11,9 +11,8 @@ const abreLista = (listWords) =>{
 		newDiv.style.height = "20em"
 
 		let newDivWord = document.createElement("div");
-		newDivWord.className = "dn tc ma2"
+		newDivWord.className = "dn tc ma2 ttu tracked mt0 blue"
 		let newWord = document.createTextNode(x.word);
-		newDivWord.style.color = "blue"
 		newDivWord.appendChild(newWord);
 
 		let newDivDefinition = document.createElement("div");
