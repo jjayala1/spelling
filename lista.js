@@ -2,7 +2,7 @@ const data = listWords.map( x => {
 
 
 	let newDiv = document.createElement("div");
-	newDiv.className = "fl db h-100 w-90 w-30-ns pa2 pv2 ma2 outline bg-blue pointer grow hide-child shadow-2";
+	newDiv.className = "fl db h-100 w-90 w-30-ns pa2 pv2 ma2 outline bg-blue pointer grow hide-child shadow-3";
 	newDiv.style.height = "20em"
 
 	let newDivWord = document.createElement("div");
