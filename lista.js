@@ -61,6 +61,7 @@ const abreLista = (listWords) =>{
 };
 
 
+
 let navs  = document.querySelectorAll(".list");
 let navsa = document.querySelectorAll(".nav a:nth-child(1n)");
 
