@@ -1,80 +1,116 @@
 listWords4 = [
 	{
-		"word": "COHERENCE",
-		"definition": "the quality of being logical and consistent",
-		"example": "There was no coherence between his words and his attitude.  ",
-		"image": "w08.png"
-		},
+		"word": "infancy (n)",
+		"definition": "The period of being a baby",
+		"example": "",
+		"image": "L4W01.png"
+	},
 	{
-		"word": "CONFIDENCE",
-		"definition": "the feeling or belief that one can rely on someone or something",
-		"example": "I have confidence that I will be able to win.",
-		"image": "w09.png"
-		},
+		"word": "vacancy (n)",
+		"definition": "A place that is available.",
+		"example": "",
+		"image": "L4W02.png"
+	},
 	{
-		"word": "ELOQUENCE",
-		"definition": "fluent or persuasive speaking or writing",
-		"example": "“a preacher of great power and eloquence”",
-		"image": "w10.png"
-		},
+		"word": "vibrancy (n)",
+		"definition": "Full of energy and enthusiasm.",
+		"example": "",
+		"image": "L4W03.png"
+	},
 	{
-		"word": "PREFERENCE",
-		"definition": "the liking for one alternative over another. ",
-		"example": "His preference is rock over classical music. ",
-		"image": "w11.png"
-		},
+		"word": "constancy (n)",
+		"definition": "The quality of staying the same.",
+		"example": "",
+		"image": "L4W04.png"
+	},
 	{
-		"word": "AUDIENCE",
-		"definition": "the group of spectators at a public event",
-		"example": "The audience was listening carefully to the music.",
-		"image": "w12.png"
-		},
+		"word": "hesitancy (n)",
+		"definition": "Not doing something immediately because you are nervous or not certain.",
+		"example": "",
+		"image": "L4W05.png"
+	},
 	{
-		"word": "COINCIDENCE",
-		"definition": "a remarkable concurrence of events without apparent causal connection",
-		"example": "They were wearing the same clothes by coincidence.",
-		"image": "w13.png"
-		},
+		"word": "relevancy (n)",
+		"definition": "Related or useful to what is happening.",
+		"example": "",
+		"image": "L4W06.png"
+	},
 	{
-		"word": "EMERGENCE",
-		"definition": "the fact of something starting to exist",
-		"example": "The emergence of a new type of viruses.",
-		"image": "w14.png"
-		},
+		"word": "consultancy (n)",
+		"definition": "The activity of giving advice on a particular subject.",
+		"example": "",
+		"image": "L4W07.png"
+	},
 	{
-		"word": "EXPERIENCE",
-		"definition": "the process of getting knowledge or skill from doing, seeing, or feeling things.",
-		"example": "You gain experience by practicing.",
-		"image": "w15.png"
-		},
+		"word": "discrepancy (n)",
+		"definition": "To have differences.",
+		"example": "",
+		"image": "L4W08.png"
+	},
 	{
-		"word": "OPULENCE",
-		"definition": "great wealth or luxuriousness.",
-		"example": "During my visit to Paris, I saw the opulence of Palais Garnier.",
-		"image": "w16.png"
-		},
+		"word": "flippancy (n)",
+		"definition": "The quality of not being serious about a serious subject.",
+		"example": "",
+		"image": "L4W09.png"
+	},
 	{
-		"word": "INTELLIGENCE",
-		"definition": "the ability to acquire and apply knowledge and skills",
-		"example": "Her intelligence is remarkable.",
-		"image": "w17.png"
-		},
+		"word": "pregnancy (n)",
+		"definition": "The state of being pregnant.",
+		"example": "",
+		"image": "L4W10.png"
+	},
 	{
-		"word": "CONVENIENCE",
-		"definition": "the quality of being useful, easy, or suitable for someone.",
-		"example": "The convenience of a portable phone.",
-		"image": "w18.png"
-		},
+		"word": "expectancy (n)",
+		"definition": "The feeling that something exciting or pleasant is going to happen.",
+		"example": "",
+		"image": "L4W11.png"
+	},
 	{
-		"word": "OFFENCE",
-		"definition": "upset and hurt, often because someone has been rude or shown no respect. ",
-		"example": "I didn’t mean any offence, I was just giving my opinion.",
-		"image": "w19.png"
-		},
+		"word": "dormancy (n)",
+		"definition": "The state of not being active or growing but able to become active later.",
+		"example": "",
+		"image": "L4W12.png"
+	},
 	{
-		"word": "REFERENCE",
-		"definition": "A mention of something.",
-		"example": "He made several references to his time in France.",
-		"image": "w20.png"
+		"word": "poignancy (n)",
+		"definition": "Causing or having a very sharp feeling of sadness.",
+		"example": "",
+		"image": "L4W13.png"
+	},
+	{
+		"word": "truancy (n)",
+		"definition": "The problem of children being absent from school regularly.",
+		"example": "",
+		"image": "L4W14.png"
+	},
+	{
+		"word": "occupancy (n)",
+		"definition": "The proportion of accommodations occupied or in use in a hotel.",
+		"example": "",
+		"image": "L4W15.png"
+	},
+	{
+		"word": "piquancy (n)",
+		"definition": "A pleasantly sharp and appetizing flavor.",
+		"example": "",
+		"image": "L4W16.png"
+	},
+	{
+		"word": "buoyancy (n)",
+		"definition": "The ability to float.",
+		"example": "",
+		"image": "L4W17.png"
+	},
+	{
+		"word": "errancy (n)",
+		"definition": "The condition of being in error.",
+		"example": "",
+		"image": "L4W18.png"
+	},
+	{
+		"word": "elegancy (n)",
+		"definition": "The condition of being refined.",
+		"example": "",
+		"image": "L4W19.png"
 	}
 ]

@@ -3,119 +3,119 @@ listWords5 = [
 		"word": "ABSENCE",
 		"definition": "being away from a place or person",
 		"example": "During his absence we read a book.",
-		"image": "w01.png"
+		"image": "L5W01.png"
 	},
 	{
 		"word": "SILENCE",
 		"definition": "absence of sound",
 		"example": "There is silence when no one is in the house.",
-		"image": "w02.png"	},
+		"image": "L5W02.png"	},
 	{
 		"word": "SENTENCE",
 		"definition": "the punishment assigned to an offender found guilty by a court",
 		"example": "The jury agreed on a sentence of 7 years.",
-		"image": "w03.png"
+		"image": "L5W03.png"
 	},
 	{
 		"word": "EVIDENCE",
 		"definition": "a sign which shows that something exists or is true",
 		"example": "Fossils are an evidence of past life.",
-		"image": "w04.png"
+		"image": "L5W04.png"
 	},
 	{
 		"word": "DIFFERENCE",
 		"definition": "being unlike or distinct",
 		"example": "Notice the difference between the yellow and the blue ball.",
-		"image": "w05.png"
+		"image": "L5W05.png"
 		},
 	{
 		"word": "FENCE",
 		"definition": "a barrier intended to prevent escape or intrusion",
 		"example": "The fence of the garden is white. ",
-		"image": "w06.png"
+		"image": "L5W06.png"
 		},
 	{
 		"word": "EXISTENCE",
 		"definition": "the fact or state of living",
 		"example": "He does not believe in the existence of life in other planets. ",
-		"image": "w07.png"
+		"image": "L5W07.png"
 		},
 	{
 		"word": "COHERENCE",
 		"definition": "the quality of being logical and consistent",
 		"example": "There was no coherence between his words and his attitude.  ",
-		"image": "w08.png"
+		"image": "L5W08.png"
 		},
 	{
 		"word": "CONFIDENCE",
 		"definition": "the feeling or belief that one can rely on someone or something",
 		"example": "I have confidence that I will be able to win.",
-		"image": "w09.png"
+		"image": "L5W09.png"
 		},
 	{
 		"word": "ELOQUENCE",
 		"definition": "fluent or persuasive speaking or writing",
 		"example": "“a preacher of great power and eloquence”",
-		"image": "w10.png"
+		"image": "L5W10.png"
 		},
 	{
 		"word": "PREFERENCE",
 		"definition": "the liking for one alternative over another. ",
 		"example": "His preference is rock over classical music. ",
-		"image": "w11.png"
+		"image": "L5W11.png"
 		},
 	{
 		"word": "AUDIENCE",
 		"definition": "the group of spectators at a public event",
 		"example": "The audience was listening carefully to the music.",
-		"image": "w12.png"
+		"image": "L5W12.png"
 		},
 	{
 		"word": "COINCIDENCE",
 		"definition": "a remarkable concurrence of events without apparent causal connection",
 		"example": "They were wearing the same clothes by coincidence.",
-		"image": "w13.png"
+		"image": "L5W13.png"
 		},
 	{
 		"word": "EMERGENCE",
 		"definition": "the fact of something starting to exist",
 		"example": "The emergence of a new type of viruses.",
-		"image": "w14.png"
+		"image": "L5W14.png"
 		},
 	{
 		"word": "EXPERIENCE",
 		"definition": "the process of getting knowledge or skill from doing, seeing, or feeling things.",
 		"example": "You gain experience by practicing.",
-		"image": "w15.png"
+		"image": "L5W15.png"
 		},
 	{
 		"word": "OPULENCE",
 		"definition": "great wealth or luxuriousness.",
 		"example": "During my visit to Paris, I saw the opulence of Palais Garnier.",
-		"image": "w16.png"
+		"image": "L5W16.png"
 		},
 	{
 		"word": "INTELLIGENCE",
 		"definition": "the ability to acquire and apply knowledge and skills",
 		"example": "Her intelligence is remarkable.",
-		"image": "w17.png"
+		"image": "L5W17.png"
 		},
 	{
 		"word": "CONVENIENCE",
 		"definition": "the quality of being useful, easy, or suitable for someone.",
 		"example": "The convenience of a portable phone.",
-		"image": "w18.png"
+		"image": "L5W18.png"
 		},
 	{
 		"word": "OFFENCE",
 		"definition": "upset and hurt, often because someone has been rude or shown no respect. ",
 		"example": "I didn’t mean any offence, I was just giving my opinion.",
-		"image": "w19.png"
+		"image": "L5W19.png"
 		},
 	{
 		"word": "REFERENCE",
 		"definition": "A mention of something.",
 		"example": "He made several references to his time in France.",
-		"image": "w20.png"
+		"image": "L5W20.png"
 	}
 ]
