@@ -104,7 +104,7 @@ function logKey(e) {
     let correct = word.getAttribute('correct');
     let answer = word.value + e.key;
 
-    let tarjeta = document.getElementById('D'+this.id.substring(1,2))
+    let tarjeta = document.getElementById('D'+this.id.substr(1,2))
     console.log(answer, correct)
 
     if( answer.toUpperCase() == correct.toUpperCase()){
