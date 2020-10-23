@@ -105,9 +105,9 @@ function logKey(e) {
     let answer = word.value + e.key;
 
     let tarjeta = document.getElementById('D'+this.id.substring(1,2))
-    console.log(this.id.substring(1,2))
+    console.log(answer, correct)
 
-    if( answer == correct){
+    if( answer.toUpperCase() == correct.toUpperCase()){
         tarjeta.className =   "fl db h-100 w-90 w-30-ns tc bg-light-green br3 pa3 ma2 pointer grow shadow-5";
     }
     else{
