@@ -40,7 +40,7 @@ const abreLista = (listWords) =>{
         newInput.setAttribute('type', 'text');
         newInput.setAttribute('correct', x.word);
         newInput.id = 'W'+index;
-        newInput.addEventListener("keypress", logKey);
+        newInput.addEventListener("keydown", logKey);
         newDivInput.appendChild(newInput);
 
         newDiv.appendChild(newDivImg);
@@ -102,12 +102,20 @@ function logKey(e) {
 
     let word = document.getElementById(this.id)
     let correct = word.getAttribute('correct');
-    let answer = word.value + e.key;
+    let press = e.key;
+    let answer = ''
+
+    if (press === "Backspace"){
+        answer = word.value.substr(0,word.value.length-1);
+    }
+    else{
+        answer = word.value + press
+    }
 
     let tarjeta = document.getElementById('D'+this.id.substr(1,2))
-    console.log(answer, correct)
+    console.log(answer, correct, 'D'+this.id.substr(1,2))
 
-    if( answer.toUpperCase() == correct.toUpperCase()){
+    if( answer.toUpperCase().trim() == correct.toUpperCase()){
         tarjeta.className =   "fl db h-100 w-90 w-30-ns tc bg-light-green br3 pa3 ma2 pointer grow shadow-5";
     }
     else{
