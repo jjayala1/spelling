@@ -1,8 +1,8 @@
 listWords6 = [
     {
         "word": "option",
-        "definition": "",
-        "example": "",
+        "definition": "One thing that can be chosen from a set of possibilities.",
+        "example": "When you eat at a buffet you have different option of food to choose from.",
         "image": "L13W01.png"
     },
     {
