@@ -79,7 +79,7 @@ let navs  = document.querySelectorAll(".list");
 let navsa = document.querySelectorAll(".nav a:nth-child(1n)");
 
 navs.forEach( el => el.addEventListener('click', () =>{
-    list = "listWords" + el.id.substr(-1)
+    list = "listWords" + el.id.substr(-2)
     navs.forEach( el1 => el1.classList.remove("gradient-blue"));
     el.classList.toggle("gradient-blue");
     abreLista(eval(list));
