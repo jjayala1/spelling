@@ -1,16 +1,38 @@
+const menuListas = () =>{
+
+    for (l = 4; l <= 16; l++){
+
+        let newList =  document.createElement("a");
+        newList.className = "list f6 f5-l link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph3-l"
+        newList.id = 'List' + l.toString().padStart(2,'0');
+        let newListText = document.createTextNode('List ' + l);
+        newList.appendChild(newListText);
+
+        let navBar = document.getElementById("navbar");
+        navBar.appendChild(newList)
+
+        let js = document.createElement("script");
+        js.type = "text/javascript";
+        js.src = "lists/lista" + l.toString().padStart(2,'0') + ".js";
+        document.body.appendChild(js);
+    }
+}
 
 const abreLista = (listWords) =>{
 
-    let currentDiv = document.getElementById("container");
-    currentDiv.innerHTML = "";
+    let containerDiv = document.getElementById("container");
+    containerDiv.innerHTML = "";
 
     const data = listWords.map( (x, index) => {
+
+        let wordIndex = (index+1).toString().padStart(2, '0');
+        let listIndex = list.toString().padStart(2, '0').substr(-2);
 
         //DIV de la tarjeta completa
         let newDiv = document.createElement("div");
         newDiv.className =   "fl db h-100 w-90 w-30-ns tc bg-light-blue br3 pa3 ma2 pointer grow shadow-5";
         newDiv.style.height = "20em"
-        newDiv.id = 'D'+index;
+        newDiv.id = 'D' + wordIndex;
 
         //DIV para la palabra
         let newDivWord = document.createElement("div");
@@ -36,7 +58,8 @@ const abreLista = (listWords) =>{
         let newDivImg = document.createElement("div");
         newDivImg.className = "h4 ma2"
         let newImage = document.createElement("img");
-        newImage.src = "./images/" + x.image;
+        imageName = 'L' + listIndex + 'W' + wordIndex  + '.png';
+        newImage.src = "./images/" + imageName;
         newImage.className = "h4";
         newDivImg.appendChild(newImage);
 
@@ -46,7 +69,7 @@ const abreLista = (listWords) =>{
         let newInput = document.createElement("input");
         newInput.setAttribute('type', 'text');
         newInput.setAttribute('correct', x.word);
-        newInput.id = 'W'+index;
+        newInput.id = 'W' + wordIndex;
         newInput.addEventListener("keydown", logKey);
         newDivInput.appendChild(newInput);
 
@@ -57,7 +80,7 @@ const abreLista = (listWords) =>{
         newDiv.appendChild(newDivExample);
         newDiv.appendChild(newDivInput);
 
-        currentDiv.appendChild(newDiv)
+        containerDiv.appendChild(newDiv)
 
     });
 
@@ -75,6 +98,7 @@ const abreLista = (listWords) =>{
 };
 
 
+menuListas();
 let navs  = document.querySelectorAll(".list");
 let navsa = document.querySelectorAll(".nav a:nth-child(1n)");
 

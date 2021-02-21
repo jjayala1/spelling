@@ -1,122 +1,102 @@
-listWords06 = [
+let listWords06 = [
     {
         "word": "agency",
         "definition": "A company or organization that provides a particular service.",
         "example": "The international agency will start a research regarding other sources of energy.",
-        "image": "L6W01.png"
     },
     {
         "word": "currency",
         "definition": "A metal or paper medium of exchange that is in current use in a particular country.",
         "example": "The EURO is the official currency of 19 European Union Countries. ",
-        "image": "L6W02.png"
     },
     {
         "word": "emergency",
         "definition": "A condition of urgent need for action or assistance.",
         "example": "Firefighters took care of the fire emergency in the woods. ",
-        "image": "L6W03.png"
     },
     {
         "word": "potency",
         "definition": "Capacity or power for work.",
         "example": "The potency of a car is measured in kilometers per hour.",
-        "image": "L6W04.png"
     },
     {
         "word": "tendency",
         "definition": "A predisposition to think, act, or proceed in a particular way.",
         "example": "There is a tendency to use facemasks derived from the Covid outbreak. ",
-        "image": "L6W05.png"
     },
     {
         "word": "urgency",
         "definition": "The need for immediate action.",
         "example": "The release of a trustworthy vaccine is a matter of great urgency. ",
-        "image": "L6W06.png"
     },
     {
         "word": "regency",
         "definition": "A person selected to govern in place of a monarch or other ruler who is absent or disabled.",
         "example": "During his regency, the kingdom experimented some peace. ",
-        "image": "L6W07.png"
     },
     {
         "word": "fluency",
         "definition": "Able to express oneself readily and effortlessly.",
         "example": "The fluency of the speaker is remarkable. ",
-        "image": "L6W08.png"
     },
     {
         "word": "frequency",
         "definition": "Something that occurs or is repeated over a particular period of time.",
         "example": "Accidents in airplanes have decreased in frequency over recent years.",
-        "image": "L6W09.png"
     },
     {
         "word": "pungency",
         "definition": "Having a strong odor or taste.",
         "example": "The sharp pungency of the onions caused us to cover our noses. ",
-        "image": "L6W10.png"
     },
     {
         "word": "residency",
         "definition": "The time in which a physician is receiving special training in a hospital.",
         "example": "He will start his residency in the local hospital. ",
-        "image": "L6W11.png"
     },
     {
         "word": "efficiency",
         "definition": "To accomplish a job with a minimum of time and effort.",
         "example": "The efficiency of the workers has increased after the training.",
-        "image": "L6W12.png"
     },
     {
         "word": "coherency",
         "definition": "Logical, orderly, and consistent relation of parts.",
         "example": "There was no  coherency between her smile and the sorrow she was experiencing. ",
-        "image": "L6W13.png"
     },
     {
         "word": "incompetency",
         "definition": "Lack of physical or intellectual ability or qualifications.",
         "example": "The hospital decided to fire the nurse for incompetency. ",
-        "image": "L6W14.png"
     },
     {
         "word": "proficiency",
         "definition": "Ability in a specific activity.",
         "example": "We are hiring people who show proficiency in italian, french, and english. ",
-        "image": "L6W15.png"
     },
     {
         "word": "consistency",
         "definition": "In physics is the degree of viscosity or firmness.",
         "example": "When baking cookies, add milk or more flour until you get the consistency you want. ",
-        "image": "L6W16.png"
     },
     {
         "word": "contingency",
         "definition": "A possible future event that cannot be predicted.",
         "example": "Our contingency plans includes an earthquake.",
-        "image": "L6W17.png"
     },
     {
         "word": "interdependency",
         "definition": " A relation of mutual dependence.",
         "example": "There is an  interdependency between ants and aphids.",
-        "image": "L6W18.png"
     },
     {
         "word": "transparency",
         "definition": "The quality of allowing objects to be seen through it.",
         "example": "The transparency of the curtains let us see what happened outside of the house.  ",
-        "image": "L6W19.png"
     },
     {
         "word": "insufficiency",
         "definition": "Deficiency in amount, force, power, competence, or fitness;",
         "example": "The insufficiency of the water supplies made them explore other options. ",
-        "image": "L6W20.png"
     }
 ]
