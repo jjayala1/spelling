@@ -1,97 +1,103 @@
-let listWords01 = [
+let listWords08 = [
     {
-        "word": "",
-        "definition": "",
+        "word": "auto",
+        "definition": "a car",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autocorrect",
+        "definition": "a feature that corrects errors as you type",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autocrat",
+        "definition": "a ruler who has absolute power",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autograph",
+        "definition": "a person's own signature",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "automated",
+        "definition": "able to function with little or no assistance from people",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "automatically",
+        "definition": "gets done without a person's deliberate control",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "automaton",
+        "definition": "a person who behaves in a mechanical, routine manner; a robot",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "automotive",
+        "definition": "pertaining to the design, operation, manufacture, or sale of automobiles",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autonomy",
+        "definition": "independence",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autopsy",
+        "definition": "an official examination of a dead body by a doctor in order to discover the cause of death",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autobiography",
+        "definition": "story of a person's life written by that person",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autocracy",
+        "definition": "a system of government by one person with absolute power.",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autofocus",
+        "definition": "a device that focuses a camera or other piece of equipment automatically.",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autoimmune",
+        "definition": "the immune system's attack on the body",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "automatic",
+        "definition": "working by itself",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "automation",
+        "definition": "the use of technology to ease human labor or to extend the mental or physical capabilities of humans",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "automobile",
+        "definition": "vehicle capable of moving on its own",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autonomous",
+        "definition": "independent",
         "example": ""
     },
     {
-        "word": "",
-        "definition": "",
+        "word": "autopilot",
+        "definition": "automatic pilot",
+        "example": ""
+    },
+    {
+        "word": "autotune",
+        "definition": "digitally transforming out-of-tune bits of an audio file to improve the pitch and sound quality",
         "example": ""
     }
+
 ]
